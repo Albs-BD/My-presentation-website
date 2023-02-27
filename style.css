@@ -1,0 +1,122 @@
+body {
+  background-color: aliceblue;
+  color: rgb(1, 70, 1);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 100;
+  font-size: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  background-color: rgb(250, 255, 255);
+  font-size: 36px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  margin: 0 0 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  text-align: center;
+}
+
+p {
+  font-family: 'Sabon', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card-peach {
+  width: calc(33.33% - 10px);
+  height: calc(33.33%% - 10px);
+  background-color: rgb(255, 218, 199);
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  text-align:center;
+}
+
+.card-peach img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.card-peach:hover {
+  background-color: rgba(255, 232, 220, 0.9);
+}
+
+#img-cover {
+  border-radius: 5px;
+  margin: 10px;
+  max-width: 100%;
+}
+
+.list-horizontal {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.list-horizontal li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.list-horizontal i {
+  font-size: 36px;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  nav {
+    text-align: center;
+  }
+  
+  nav li {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
